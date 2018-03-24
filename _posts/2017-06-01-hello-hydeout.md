@@ -9,7 +9,6 @@ theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
 
 ### Keep It Simple
 
-asdfasdf
 In keeping with the original Hyde theme, Hydeout aims to keep the overall
 design lightweight and plugin-free. JavaScript is currently limited only
 to Disqus and Google Analytics (and is only loaded if you provide configuration
