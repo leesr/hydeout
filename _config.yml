@@ -3,10 +3,10 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-url:              https://fongandrew.github.io/hydeout
+title:            라리 앤 누룽의 블로그
+tagline:          '가자 세계로!'
+description:      '<a href="https://www.google.com/maps/d/edit?hl=ko&hl=ko&mid=1gkiOkQr0cY7MiYDVObCH7FmUDoLNlq2z&ll=43.22825264507053%2C-2.6127738750000162&z=4" target="_blank">여행지도</a>'
+url:              https://leesr.github.io/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -14,8 +14,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           '라리 앤 누룽'
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -34,4 +33,4 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/leesr/leesr.github.io
