@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 유용한 문서 모음
-category: etc
+category: 기타
 excerpt_separator:  <!--more-->
 ---
 
