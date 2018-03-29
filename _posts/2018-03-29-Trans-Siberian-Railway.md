@@ -10,4 +10,5 @@ excerpt_separator:  <!--more-->
 꼭 연속으로 가지 않더라도, 중간 중간 내려서 러시아 여행까지 할 수 있을 것 같다.<br>
 몽골이나 중국에서부터 출발할 수도 있다.
 ![Interactive map: Trans-Siberian, Trans-Mongolian, Trans-Manchurian...](https://www.seat61.com/images/Trans-Siberian-map.jpg)
-[시베리아 열차 예매 사이트](https://www.transsiberianexpress.net/)
+(출처: https://www.seat61.com/)<br>
+시베리아 열차 정보와 예매는 [여기](https://www.transsiberianexpress.net/)에서 할 수 있다.
