@@ -12,7 +12,7 @@ Ruby는 [공식 홈페이지](https://www.ruby-lang.org/)에서 윈도우 인스
 설치 마지막 단계에서 "Run 'ridk install' to ..." 가 체크되어 있는데, 그대로 진행한다. 아래와 같이 콘솔 창이 실행되면서 MSYS2를 설치할 수 있는 옵션을 제공한다.<br>
 ![RubyInstaller2](https://github.com/leesr/leesr.github.io/blob/master/_screenshots/RubyInstaller2.png?raw=true)<br>
 모두 설치할 필요가 있는지는 잘 모르겠지만, 나는 1, 2, 3을 순서대로 설치하였다.<br>
-MSYS2설치가 완료되면, 아래 명령어를 이용해 Bundler를 설치한다.
+MSYS2설치가 완료되면, Git-bash를 열어서 아래 명령어를 이용해 Bundler를 설치한다.
 ```
 $ gem install bundler
 ```
