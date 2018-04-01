@@ -32,7 +32,7 @@ $ bundle install
 
 ## 빌드
 
-Jekyll을 실행한다.
+로컬 리포지토리에서 Jekyll을 실행한다.
 ```
 $ bundle exec jekyll serve
 ```
