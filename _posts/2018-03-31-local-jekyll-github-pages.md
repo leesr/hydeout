@@ -37,10 +37,37 @@ Jekyll을 실행한다.
 $ bundle exec jekyll serve
 ```
 그런데 아래와 같이 에러가 발생하였다.<br>
-![error](https://github.com/leesr/leesr.github.io/blob/master/_screenshots/error.png?raw=true) <br>
+```
+Configuration file: d:/blog/leesr.github.io/_config.yml
+            Source: d:/blog/leesr.github.io
+       Destination: d:/blog/leesr.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+  Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/style.scss':
+                    Invalid CP949 character "\xE2" on line 5
+jekyll 3.7.3 | Error:  Invalid CP949 character "\xE2" on line 5
+```
 검색해보니 인코딩 문제인 것 같아서 이것 저것 해보았는데, 여전히 같은 에러가 발생했다. 그러다 [같은 문제를 겪었던 분의 글](https://jprogram.github.io/articles/2017-12/Windows)을 찾을 수 있었다.
 나는 모든 명령어를 Git-bash에서 실행하고 있었는데, Ruby 콘솔 창(Start Command Prompt with Ruby)에서 인코딩을 변경해야 했다.
 ```
 > chcp 65001
 > bundle exec jekyll serve
+```
+매번 `chcp 65001`을 실행하기 귀찮아서 `Ruby25-x64\bin\setrbvars.cmd` 에 추가해주었다.
+```
+@ECHO OFF
+REM Determine where is RUBY_BIN (where this script is)
+PUSHD %~dp0.
+SET RUBY_BIN=%CD%
+POPD
+
+REM Add RUBY_BIN to the PATH
+REM RUBY_BIN takes higher priority to avoid other tools
+REM conflict with our own (mainly the DevKit)
+SET PATH=%RUBY_BIN%;%PATH%
+SET RUBY_BIN=
+
+REM Display Ruby version
+chcp 65001
+ruby.exe -v
 ```
