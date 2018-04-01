@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 시베리아 횡단열차
-tags: 러시아, 기차
+tags: [러시아, 기차]
 excerpt_separator:  <!--more-->
 ---
 
